@@ -1,0 +1,583 @@
+/* algemeen */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    height:100%;
+    width:100%;
+}
+
+body {
+    background-color: #afc1d0;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.a {
+    color: #000;
+    text-decoration: none;
+    background-color:#008b8b;
+    border-radius:10px;
+    width:70px;
+    text-align:center;
+}
+
+/* public header */
+
+header{
+    background-color:#000080;
+    height:12.5%;
+    width:100%;
+    display:flex;
+}
+
+#inlogknoppie{
+    margin-top:1.5%;
+    width:10%;
+    height:40%;
+    margin-left:70%;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:35px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+#img1{
+    height: 95%;
+    padding-left:36%;
+    width:100%;
+}
+
+/* private header */
+
+#img2{
+    height: 95%;
+    padding-left:2.5%;
+    width:125px;
+}
+
+#back_home{
+    margin-top:2%;
+    width:150px;
+    margin-left:5%;
+    height:38px;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+#overview{
+    margin-top:2%;
+    width:150px;
+    height:38px;
+    margin-left:7.5%;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+#gevangenen{
+    margin-top:2%;
+    width:190px;
+    height:38px;
+    margin-left:7.5%;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+#dossiers {
+    margin-top:2%;
+    width:190px;
+    height:38px;
+    margin-left:7.5%;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+#mijn_account{
+    margin-top:2%;
+    width:275px;
+    height:38px;
+    margin-left:7.5%;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+#logout{
+    margin-top:2%;
+    width:175px;
+    height:38px;
+    margin-left:7.5%;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+/* home pagina */
+
+#content_1{
+    background-color:#5e17eb;
+    color:#ffffff;
+    font-size:14px;
+}
+
+#inleiding{
+    color:whitesmoke;
+    font-size:18px;
+}
+
+#uitleg{
+    color:#f5f5f5;
+    font-size:14px;
+}
+
+#foto1{
+    height:25%;
+    width:20%;
+    margin:5%;
+}
+
+#lijst{
+    list-style:none;
+    margin-left:5%;
+}
+
+#iets{
+    color:whitesmoke;
+    text-decoration:darkcyan underline wavy 2px;
+    text-decoration-skip-ink: none;
+    margin-left:2.5%;
+}
+
+#inleiding{
+    font-size:18px;
+}
+
+#uitleg{
+    font-size:16px;
+}
+
+/* footer */
+
+#voeten{
+    color:purple;
+    background-color:yellow;
+}
+
+#id {
+    background-color: #5e17eb;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 75%;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* loginform */
+
+#login_form{    
+    width:50%;
+    font-size:25px;
+    margin-left:25%;
+    margin-top:15%;
+    padding-top:1%;
+    padding-bottom:1%;
+    color:#000;
+    background-color:lightgray;    
+}
+
+#login_knop{
+    background-color:lightblue;
+    font-size:35px;
+    text-align:center;
+    width:50%;
+    margin-left:20%;
+}
+
+#login_mail {
+    background-color:lightblue;
+    font-size:25px;
+    width:320px;
+    border-radius:10px;
+    padding-left:.25%;
+    margin-left:8.25%;
+}
+
+#login_wachtwoord {
+    background-color:lightblue;
+    font-size:25px;
+    width:320px;
+    border-radius:10px;
+    padding-left:.25%;
+}
+
+#login_email {
+    color:#000;
+    font-size:25px;
+    margin-left:12%;
+}
+
+#login_password {
+    color:#000;
+    font-size:25px;
+    margin-left:12%;
+}
+
+/* account pagina */
+
+#content_account{
+    padding-left:5%;
+    background-color:orange;
+}
+
+#account_info{
+    background-color:lightblue;
+    width:300px;
+    margin:100px;
+    border-radius:10px;
+    padding-left:10px;
+    font-size:35px;
+    width:75%;
+}
+
+/* overview pagina */
+
+.colored {
+    background-color: #fff;
+}
+
+.spaced {
+    line-height: 2.5;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding:0;
+    padding-left:10px;
+}
+
+
+.inside_space {
+    display: flex;
+    justify-content: space-between;
+    color:darkblue;
+    font-size:17px;
+}
+
+/* gevangenen pagina */
+
+#titel {
+    color:whitesmoke;
+    font-size:30px;
+    text-align:center;
+    margin-left:12.5%;
+    margin-top:1.5%;
+    width:75%;
+    border-radius:10px;
+    background-color:darkcyan;
+}
+
+#gevangen{
+    background-color: #fff;
+    line-height: 2.5;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left:10px;
+    margin-left:25%;
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    color:darkblue;
+}
+
+#nieuwe_gevangene{
+    background-color:darkcyan;
+    width:20%;
+    padding-left:10px;
+}
+
+table, th, td {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+table, tr {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+}
+
+#tafel {
+    background-color:darkcyan;
+    width:100%;
+    color: #000;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+.bijna_weekend {
+    background-color:darkcyan;
+    color: #000;
+    text-decoration: none;
+}
+
+/* add prisoner form */
+
+.add_prisoner_form {
+    color:#000;
+    background-color:#f3f3f3;
+    border-radius:10px;
+    padding-top:10%;
+    padding-left:20%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    margin-top:10%;
+    height:50%;
+    font-size:20px;
+}
+
+h2 {
+    color:#000;
+    background-color:#f3f3f3;
+    border-radius:10px;
+    margin-top:2.5%;
+    text-align:center;
+    font-size:30px;
+}
+
+/* users form */
+
+#edit_roles {
+    background-color:darkcyan;
+    color: #000;
+    text-decoration: none;
+    font-size:20px;
+}
+
+#namen{
+    color: darkgoldenrod;
+    font-size:20px;
+}
+
+/* edit roles form */
+
+#verander_rollen {
+    background-color: #f3f3f3;
+    border-radius:10px;
+    padding:20px;
+    margin-top:5%;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#submit_roles {
+    background-color:darkcyan;
+    color: #fff;
+    text-decoration: none;
+    border-radius:10px;
+    width:10%;
+    height:35px;
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+}
+
+#submit {
+    background-color:darkcyan;
+    color: #fff;
+    text-decoration: none;
+    border-radius:10px;
+    width:40%;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+}
+
+#wijzigingen {
+    background-color:darkcyan;
+    color: #fff;
+    text-decoration: none;
+    border-radius:10px;
+    width:250px;
+    height:35px;
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+/* register form */
+
+#email_label, #username_label, #password_label {
+    font-size:20px;
+    color:whitesmoke;
+}
+
+#email, #username, #password {
+    font-size:20px;
+    border-radius:10px;
+    padding-left:5%;
+    background-color:darkcyan;
+}
+
+#gebruikersnaam_label, #wachtwoord_label, #e-mail_label {
+    color:darkblue;
+    font-size:25px;
+}
+
+#gebruikersnaam {
+    font-size:20px;
+    border-radius:10px;
+    border:black solid 2px;
+    margin-left:1.75%;
+    padding-left:5px;
+    background-color:whitesmoke;
+}
+
+ #wachtwoord {
+    font-size:20px;
+    border-radius:10px;
+    border:black solid 2px;
+    margin-left:5.1%;
+    padding-left:5px;
+    background-color:whitesmoke;
+ }
+
+#e-mail {
+    font-size:20px;
+    border-radius:10px;
+    border:black solid 2px;
+    margin-left:10.6%;
+    padding-left:5px;
+    background-color:whitesmoke;
+}
+
+/* dossier details */
+
+#dossier {
+    background-color:gainsboro;
+    margin-top: 5%;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+    list-style:none;
+}
+
+p {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left:2.5%;
+}
+
+#back {
+    background-color:darkcyan;
+    color: #fff;
+    text-decoration: none;
+    border-radius:10px;
+    width:250px;
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+}
+
+#archief {
+    background-color:darkcyan;
+    border-radius:10px;
+    width:250px;
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+}
+
+.dossier {
+    color:#000;
+    text-decoration:none;
+}
+
+.dossiers{
+    color:#fff;
+    text-decoration:none;
+
+}
+
+.F {
+    color:whitesmoke;
+}
+
+#lijst_1 {
+    margin-left:2.5%;
+}
+
+/* cellen pagina */
+
+#cell_tabel {
+    width:100%;
+    color:#000;
+    font-size:20px;
+    border-radius:10px;
+}
+
+.container {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 5%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bewerken {
+    width:100%;
+    color: #000;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+/* zoekformulieren */
+
+#gevangenen1 {
+    width:10%;
+    height:38px;
+    background-color:#afc1d0;
+    text-align:center;
+    font-size:30px;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+#gevangene {
+    background-color:lightblue;
+    font-size:25px;
+    width:40%;
+    border-radius:10px;
+    padding-left:.25%;
+    margin-left:25%;
+}
